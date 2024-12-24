@@ -1,0 +1,20 @@
+.btn {
+    background: var(--darkBlue);
+    border: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: var(--darkBlue);
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    padding: 12px;
+    border: 2px solid var(--darkBlue);
+    border-radius: 25px;
+    margin: 15px 0;
+    transition: var(--transition);
+}
+.btn:hover {
+    background: var(--darkBlue);
+    color: #fff;
+}
